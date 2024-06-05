@@ -106,3 +106,7 @@ a:hover {
   background: #fff;
   color: #000;
 }
+
+svg {
+  cursor: pointer;
+}
