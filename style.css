@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #0e0e10;
+  font-family:
+    Roobert,
+    Inter,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container,
+footer,
+.buy-container {
+  display: flex;
+}
+
+.buy-container,
+footer {
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.container {
+  height: 100svh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  padding: 10px 20px;
+  width: 100%;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    #beaaff 0,
+    #ff8dff 33%,
+    #fafa19 66%,
+    #00c7ad
+  );
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  background: #000;
+  border-radius: 20px;
+  color: #fff;
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+a:hover {
+  background: #fff;
+  color: #000;
+}
